@@ -27,18 +27,18 @@ public class NavigationPractice extends MainClass {
  }
 	
 	//about.click();
-	//System.out.println("Before Nagication title "+driver.getTitle());
+	System.out.println("Before Nagication title "+driver.getTitle());
 	
-//	driver.navigate().to("https://www.amazon.com/");
-  //  System.out.println("Before Nagication title "+driver.getTitle());
+driver.navigate().to("https://www.amazon.com/");
+System.out.println("Before Nagication title "+driver.getTitle());
 	
-//	driver.navigate().back();
- //   System.out.println("After back title title "+driver.getTitle());
+	driver.navigate().back();
+    System.out.println("After back title title "+driver.getTitle());
 	
-//	driver.navigate().forward();
-//	System.out.println("After back title "+driver.getTitle());
+	driver.navigate().forward();
+	System.out.println("After back title "+driver.getTitle());
 		
-//	System.out.println(driver.getTitle());
+	System.out.println(driver.getTitle());
 	
 	List<WebElement> input = driver.findElements(By.tagName("input")); 	 
 	System.out.println(input.size());
