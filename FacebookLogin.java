@@ -24,7 +24,7 @@ public class FacebookLogin extends MainClass{
 
 	public static void main(String[] args) {
 driver=setUpBrowser();
-driver.get("https://www.google.com");
+driver.get("https://www.amazon.com");
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
 driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Sahil");
